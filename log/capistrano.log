@@ -14,3 +14,8 @@
   INFO ---------------------------------------------------------------------------
   INFO [c931abae] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as deploy@3.99.189.244
  DEBUG [c931abae] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-14 23:43:48 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d6827903] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as deploy@3.99.189.244
+ DEBUG [d6827903] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
