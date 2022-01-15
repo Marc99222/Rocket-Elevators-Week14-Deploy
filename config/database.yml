@@ -1,6 +1,20 @@
 default: &default
   adapter: mysql2
   encoding: utf8
+  username: dbmasteruser
+  passeword: Codeboxx1!
+  host: ls-1c6447086c8b2894cde0dcfec2a51ae6f890d1ef.coojzbjc1mjk.ca-central-1.rds.amazonaws.com
+  port : 3306
+
+  development:
+    <<: *default
+    database: RocketElevators
+
+
+
+default: &default
+  adapter: mysql2
+  encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password: 

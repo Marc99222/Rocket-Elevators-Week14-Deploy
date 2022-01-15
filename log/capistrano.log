@@ -19,3 +19,1675 @@
   INFO ---------------------------------------------------------------------------
   INFO [d6827903] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as deploy@3.99.189.244
  DEBUG [d6827903] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-14 23:48:28 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ef9c095f] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [ef9c095f] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [ef9c095f] Finished in 0.595 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [91334cee] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [91334cee] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [91334cee] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [81855828] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [81855828] Command: /usr/bin/env mkdir -p /tmp
+  INFO [81855828] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-1659c7163d55b5355c15.sh 0.0%
+  INFO Uploading /tmp/git-ssh-1659c7163d55b5355c15.sh 100.0%
+  INFO [7cff1025] Running /usr/bin/env chmod 700 /tmp/git-ssh-1659c7163d55b5355c15.sh as ubuntu@3.99.189.244
+ DEBUG [7cff1025] Command: /usr/bin/env chmod 700 /tmp/git-ssh-1659c7163d55b5355c15.sh
+  INFO [7cff1025] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [6df57293] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [6df57293] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [6df57293] Finished in 0.053 seconds with exit status 1 (failed).
+ DEBUG [9f05bb7a] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [9f05bb7a] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy'" 1>&2; false; fi
+ DEBUG [9f05bb7a] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [48cfe577] Running /usr/bin/env git clone --mirror git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo as ubuntu@3.99.189.244
+ DEBUG [48cfe577] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1659c7163d55b5355c15.sh" ; /usr/bin/env git clone --mirror git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo )
+ DEBUG [48cfe577] 	Cloning into bare repository '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'...
+ DEBUG [48cfe577] 	Warning: Permanently added 'github.com,140.82.114.4' (ECDSA) to the list of known hosts.
+ DEBUG [48cfe577] 	git@github.com: Permission denied (publickey).
+ DEBUG [48cfe577] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-14 23:56:37 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d947b653] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [d947b653] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [d947b653] Finished in 0.576 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [611c27b8] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [611c27b8] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [611c27b8] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [8e7db542] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [8e7db542] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8e7db542] Finished in 0.022 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-6266f15aaf2773b3f843.sh 0.0%
+  INFO Uploading /tmp/git-ssh-6266f15aaf2773b3f843.sh 100.0%
+  INFO [8204c7ca] Running /usr/bin/env chmod 700 /tmp/git-ssh-6266f15aaf2773b3f843.sh as ubuntu@3.99.189.244
+ DEBUG [8204c7ca] Command: /usr/bin/env chmod 700 /tmp/git-ssh-6266f15aaf2773b3f843.sh
+  INFO [8204c7ca] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [3fe72e28] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [3fe72e28] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [3fe72e28] Finished in 0.061 seconds with exit status 1 (failed).
+ DEBUG [2e100238] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [2e100238] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy'" 1>&2; false; fi
+ DEBUG [2e100238] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [45687481] Running /usr/bin/env git clone --mirror git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo as ubuntu@3.99.189.244
+ DEBUG [45687481] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6266f15aaf2773b3f843.sh" ; /usr/bin/env git clone --mirror git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo )
+ DEBUG [45687481] 	Cloning into bare repository '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'...
+ DEBUG [45687481] 	Warning: Permanently added the ECDSA host key for IP address '140.82.113.3' to the list of known hosts.
+  INFO [45687481] Finished in 4.903 seconds with exit status 0 (successful).
+ DEBUG [e1164118] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [e1164118] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [e1164118] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [d21bf3d4] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [d21bf3d4] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6266f15aaf2773b3f843.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [d21bf3d4] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO [25341612] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [25341612] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6266f15aaf2773b3f843.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [25341612] 	Fetching origin
+  INFO [25341612] Finished in 0.482 seconds with exit status 0 (successful).
+ DEBUG [194ba22f] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [194ba22f] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [194ba22f] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [4f57201b] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 as ubuntu@3.99.189.244
+ DEBUG [4f57201b] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6266f15aaf2773b3f843.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 )
+  INFO [4f57201b] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [9d642396] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 as ubuntu@3.99.189.244
+ DEBUG [9d642396] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6266f15aaf2773b3f843.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 )
+  INFO [9d642396] Finished in 1.334 seconds with exit status 0 (successful).
+ DEBUG [3adfd7a6] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [3adfd7a6] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [3adfd7a6] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [8f78edcc] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [8f78edcc] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-6266f15aaf2773b3f843.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [8f78edcc] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [8f78edcc] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [63ac50b3] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [63ac50b3] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638'" 1>&2; false; fi
+ DEBUG [63ac50b3] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [acfbce0e] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [acfbce0e] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [acfbce0e] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [6d4931cf] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config as ubuntu@3.99.189.244
+ DEBUG [6d4931cf] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config
+  INFO [6d4931cf] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [40f1acdf] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [40f1acdf] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml ]
+ DEBUG [40f1acdf] Finished in 0.065 seconds with exit status 1 (failed).
+ DEBUG [b7555122] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [b7555122] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml ]
+ DEBUG [b7555122] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [2b4def62] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [2b4def62] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml
+  INFO [2b4def62] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [4d760ae6] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [4d760ae6] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/database.yml
+  INFO [4d760ae6] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [a03f6fc2] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [a03f6fc2] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml ]
+ DEBUG [a03f6fc2] Finished in 0.065 seconds with exit status 1 (failed).
+ DEBUG [a0fb37ea] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [a0fb37ea] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml ]
+ DEBUG [a0fb37ea] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [a8ff4de7] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [a8ff4de7] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml
+  INFO [a8ff4de7] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [97a7f03d] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [97a7f03d] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/config/application.yml
+  INFO [97a7f03d] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [dc51d3b5] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public as ubuntu@3.99.189.244
+ DEBUG [dc51d3b5] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public
+  INFO [dc51d3b5] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [85e054ed] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [85e054ed] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/pids ]
+ DEBUG [85e054ed] Finished in 0.027 seconds with exit status 1 (failed).
+ DEBUG [2fcab495] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [2fcab495] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/pids ]
+ DEBUG [2fcab495] Finished in 0.066 seconds with exit status 1 (failed).
+  INFO [54e721dd] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [54e721dd] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/pids
+  INFO [54e721dd] Finished in 0.022 seconds with exit status 0 (successful).
+ DEBUG [9317316b] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [9317316b] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/sockets ]
+ DEBUG [9317316b] Finished in 0.065 seconds with exit status 1 (failed).
+ DEBUG [64ac6b46] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [64ac6b46] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/sockets ]
+ DEBUG [64ac6b46] Finished in 0.023 seconds with exit status 1 (failed).
+  INFO [b65c4b82] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [b65c4b82] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/tmp/sockets
+  INFO [b65c4b82] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [d41c837c] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log ] as ubuntu@3.99.189.244
+ DEBUG [d41c837c] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log ]
+ DEBUG [d41c837c] Finished in 0.022 seconds with exit status 1 (failed).
+ DEBUG [2dbb8e6b] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log ] as ubuntu@3.99.189.244
+ DEBUG [2dbb8e6b] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log ]
+ DEBUG [2dbb8e6b] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [04eeb93f] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log as ubuntu@3.99.189.244
+ DEBUG [04eeb93f] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log
+  INFO [04eeb93f] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [1fcc064f] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log as ubuntu@3.99.189.244
+ DEBUG [1fcc064f] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/log
+  INFO [1fcc064f] Finished in 0.076 seconds with exit status 0 (successful).
+ DEBUG [4c359e35] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [4c359e35] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public/assets ]
+ DEBUG [4c359e35] Finished in 0.026 seconds with exit status 1 (failed).
+ DEBUG [07329449] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [07329449] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public/assets ]
+ DEBUG [07329449] Finished in 0.069 seconds with exit status 1 (failed).
+  INFO [82cf0afd] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public/assets as ubuntu@3.99.189.244
+ DEBUG [82cf0afd] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638/public/assets
+  INFO [82cf0afd] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [79cec6b4] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [79cec6b4] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638'" 1>&2; false; fi
+ DEBUG [79cec6b4] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [1ecb0a98] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [1ecb0a98] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115045638 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [1ecb0a98] 	Can not find rvm in '/home/ubuntu/.rvm'.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-15 00:14:09 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [293fd9bf] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [293fd9bf] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [293fd9bf] Finished in 0.615 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [c2844ec3] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [c2844ec3] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [c2844ec3] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [e5ff39a5] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [e5ff39a5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e5ff39a5] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-c841635faf3d59952659.sh 0.0%
+  INFO Uploading /tmp/git-ssh-c841635faf3d59952659.sh 100.0%
+  INFO [9e82f972] Running /usr/bin/env chmod 700 /tmp/git-ssh-c841635faf3d59952659.sh as ubuntu@3.99.189.244
+ DEBUG [9e82f972] Command: /usr/bin/env chmod 700 /tmp/git-ssh-c841635faf3d59952659.sh
+  INFO [9e82f972] Finished in 0.054 seconds with exit status 0 (successful).
+ DEBUG [d2b8c929] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [d2b8c929] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [d2b8c929] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo
+ DEBUG [cc6cf5f8] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [cc6cf5f8] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [cc6cf5f8] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [038c2331] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [038c2331] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c841635faf3d59952659.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [038c2331] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [320ed9c0] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [320ed9c0] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c841635faf3d59952659.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [320ed9c0] 	Fetching origin
+  INFO [320ed9c0] Finished in 0.492 seconds with exit status 0 (successful).
+ DEBUG [4a45c733] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [4a45c733] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [4a45c733] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [e85b0e86] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 as ubuntu@3.99.189.244
+ DEBUG [e85b0e86] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c841635faf3d59952659.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 )
+  INFO [e85b0e86] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [0604440a] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 as ubuntu@3.99.189.244
+ DEBUG [0604440a] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c841635faf3d59952659.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 )
+  INFO [0604440a] Finished in 1.376 seconds with exit status 0 (successful).
+ DEBUG [02c6200d] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [02c6200d] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [02c6200d] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [b112f3e2] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [b112f3e2] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c841635faf3d59952659.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [b112f3e2] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [b112f3e2] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [d4b4353b] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [d4b4353b] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410'" 1>&2; false; fi
+ DEBUG [d4b4353b] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [db02ad22] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [db02ad22] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [db02ad22] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [261eee2c] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config as ubuntu@3.99.189.244
+ DEBUG [261eee2c] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config
+  INFO [261eee2c] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [a77a8277] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [a77a8277] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml ]
+ DEBUG [a77a8277] Finished in 0.068 seconds with exit status 1 (failed).
+ DEBUG [2bd0a635] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [2bd0a635] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml ]
+ DEBUG [2bd0a635] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [95a34e7e] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [95a34e7e] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml
+  INFO [95a34e7e] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [582b515f] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [582b515f] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/database.yml
+  INFO [582b515f] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [1ed80e11] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [1ed80e11] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml ]
+ DEBUG [1ed80e11] Finished in 0.062 seconds with exit status 1 (failed).
+ DEBUG [d5577e07] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [d5577e07] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml ]
+ DEBUG [d5577e07] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [8f52f3c0] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [8f52f3c0] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml
+  INFO [8f52f3c0] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [e821b749] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [e821b749] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/config/application.yml
+  INFO [e821b749] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [440d404c] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public as ubuntu@3.99.189.244
+ DEBUG [440d404c] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public
+  INFO [440d404c] Finished in 0.063 seconds with exit status 0 (successful).
+ DEBUG [6ac8d9f1] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [6ac8d9f1] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/pids ]
+ DEBUG [6ac8d9f1] Finished in 0.023 seconds with exit status 1 (failed).
+ DEBUG [3bc01000] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [3bc01000] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/pids ]
+ DEBUG [3bc01000] Finished in 0.067 seconds with exit status 1 (failed).
+  INFO [6311898a] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [6311898a] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/pids
+  INFO [6311898a] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [78b47bbc] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [78b47bbc] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/sockets ]
+ DEBUG [78b47bbc] Finished in 0.059 seconds with exit status 1 (failed).
+ DEBUG [c5425c03] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [c5425c03] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/sockets ]
+ DEBUG [c5425c03] Finished in 0.034 seconds with exit status 1 (failed).
+  INFO [99954e70] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [99954e70] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/tmp/sockets
+  INFO [99954e70] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [4a49c4dd] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log ] as ubuntu@3.99.189.244
+ DEBUG [4a49c4dd] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log ]
+ DEBUG [4a49c4dd] Finished in 0.035 seconds with exit status 1 (failed).
+ DEBUG [fa7cf6ac] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log ] as ubuntu@3.99.189.244
+ DEBUG [fa7cf6ac] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log ]
+ DEBUG [fa7cf6ac] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [add133d7] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log as ubuntu@3.99.189.244
+ DEBUG [add133d7] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log
+  INFO [add133d7] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [1a90679a] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log as ubuntu@3.99.189.244
+ DEBUG [1a90679a] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/log
+  INFO [1a90679a] Finished in 0.092 seconds with exit status 0 (successful).
+ DEBUG [421830f8] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [421830f8] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public/assets ]
+ DEBUG [421830f8] Finished in 0.042 seconds with exit status 1 (failed).
+ DEBUG [ca64f272] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [ca64f272] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public/assets ]
+ DEBUG [ca64f272] Finished in 0.079 seconds with exit status 1 (failed).
+  INFO [07bffe59] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public/assets as ubuntu@3.99.189.244
+ DEBUG [07bffe59] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410/public/assets
+  INFO [07bffe59] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [9cca1c0a] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [9cca1c0a] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410'" 1>&2; false; fi
+ DEBUG [9cca1c0a] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [5e69dd32] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [5e69dd32] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115051410 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [5e69dd32] 	To install do: 'rvm install "ruby-2.6.6"'
+ DEBUG [5e69dd32] 	Required ruby-2.6.6 is not installed.
+ DEBUG [5e69dd32] 	Required ruby-2.6.6 is not installed - installing.
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	%
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	T
+ DEBUG [5e69dd32] 	o
+ DEBUG [5e69dd32] 	t
+ DEBUG [5e69dd32] 	a
+ DEBUG [5e69dd32] 	l
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	%
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	R
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	c
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	i
+ DEBUG [5e69dd32] 	v
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	d
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	%
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	X
+ DEBUG [5e69dd32] 	f
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	r
+ DEBUG [5e69dd32] 	d
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	A
+ DEBUG [5e69dd32] 	v
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	r
+ DEBUG [5e69dd32] 	a
+ DEBUG [5e69dd32] 	g
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	S
+ DEBUG [5e69dd32] 	p
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	d
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	T
+ DEBUG [5e69dd32] 	i
+ DEBUG [5e69dd32] 	m
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	T
+ DEBUG [5e69dd32] 	i
+ DEBUG [5e69dd32] 	m
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	T
+ DEBUG [5e69dd32] 	i
+ DEBUG [5e69dd32] 	m
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	C
+ DEBUG [5e69dd32] 	u
+ DEBUG [5e69dd32] 	r
+ DEBUG [5e69dd32] 	r
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	n
+ DEBUG [5e69dd32] 	t
+ DEBUG [5e69dd32] 	
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	D
+ DEBUG [5e69dd32] 	l
+ DEBUG [5e69dd32] 	o
+ DEBUG [5e69dd32] 	a
+ DEBUG [5e69dd32] 	d
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	U
+ DEBUG [5e69dd32] 	p
+ DEBUG [5e69dd32] 	l
+ DEBUG [5e69dd32] 	o
+ DEBUG [5e69dd32] 	a
+ DEBUG [5e69dd32] 	d
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	T
+ DEBUG [5e69dd32] 	o
+ DEBUG [5e69dd32] 	t
+ DEBUG [5e69dd32] 	a
+ DEBUG [5e69dd32] 	l
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	S
+ DEBUG [5e69dd32] 	p
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	n
+ DEBUG [5e69dd32] 	t
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	L
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	f
+ DEBUG [5e69dd32] 	t
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	S
+ DEBUG [5e69dd32] 	p
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	e
+ DEBUG [5e69dd32] 	d
+ DEBUG [5e69dd32] 	
+ DEBUG [5e69dd32] 	
+ DEBUG [5e69dd32] 	  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ DEBUG [5e69dd32] 	
+ DEBUG [5e69dd32] 	1
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	2
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	.
+ DEBUG [5e69dd32] 	3
+ DEBUG [5e69dd32] 	M
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	1
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	2
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	.
+ DEBUG [5e69dd32] 	3
+ DEBUG [5e69dd32] 	M
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	3
+ DEBUG [5e69dd32] 	6
+ DEBUG [5e69dd32] 	.
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	M
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	:
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	:
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	:
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	:
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	:
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	:
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	-
+ DEBUG [5e69dd32] 	 
+ DEBUG [5e69dd32] 	3
+ DEBUG [5e69dd32] 	6
+ DEBUG [5e69dd32] 	.
+ DEBUG [5e69dd32] 	0
+ DEBUG [5e69dd32] 	M
+ DEBUG [5e69dd32] 	
+ DEBUG [5e69dd32] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [5e69dd32] Finished in 32.676 seconds with exit status 0 (successful).
+  INFO [48986e2c] Running /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD as ubuntu@3.99.189.244
+ DEBUG [48986e2c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-c841635faf3d59952659.sh" ; /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD )
+ DEBUG [48986e2c] 	abac8406d27f76e846d689310f3592cf68f5bb09	HEAD
+  INFO [48986e2c] Finished in 0.479 seconds with exit status 0 (successful).
+  INFO [5771cb7e] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases as ubuntu@3.99.189.244
+ DEBUG [5771cb7e] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases
+  INFO [5771cb7e] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [784c6bfc] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets as ubuntu@3.99.189.244
+ DEBUG [784c6bfc] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets
+  INFO [784c6bfc] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [3e865e4c] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config as ubuntu@3.99.189.244
+ DEBUG [3e865e4c] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config
+  INFO [3e865e4c] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [7cdf5ba4] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [7cdf5ba4] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ]
+ DEBUG [7cdf5ba4] Finished in 0.020 seconds with exit status 1 (failed).
+ ERROR linked file /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml does not exist on 3.99.189.244
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-15 00:54:50 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bd93eac9] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [bd93eac9] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [bd93eac9] Finished in 0.819 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [730bcb4a] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [730bcb4a] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [730bcb4a] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [14d4ed01] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [14d4ed01] Command: /usr/bin/env mkdir -p /tmp
+  INFO [14d4ed01] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-d8d8387729fdab146d96.sh 0.0%
+  INFO Uploading /tmp/git-ssh-d8d8387729fdab146d96.sh 100.0%
+  INFO [399ab829] Running /usr/bin/env chmod 700 /tmp/git-ssh-d8d8387729fdab146d96.sh as ubuntu@3.99.189.244
+ DEBUG [399ab829] Command: /usr/bin/env chmod 700 /tmp/git-ssh-d8d8387729fdab146d96.sh
+  INFO [399ab829] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [4e822c7b] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [4e822c7b] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [4e822c7b] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo
+ DEBUG [5db7a7ac] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [5db7a7ac] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [5db7a7ac] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [4aa89e22] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [4aa89e22] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d8d8387729fdab146d96.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [4aa89e22] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [f6208c30] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [f6208c30] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d8d8387729fdab146d96.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [f6208c30] 	Fetching origin
+ DEBUG [f6208c30] 	Warning: Permanently added the ECDSA host key for IP address '140.82.112.4' to the list of known hosts.
+  INFO [f6208c30] Finished in 0.430 seconds with exit status 0 (successful).
+ DEBUG [3d893f2b] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [3d893f2b] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [3d893f2b] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [88f59f6a] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 as ubuntu@3.99.189.244
+ DEBUG [88f59f6a] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d8d8387729fdab146d96.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 )
+  INFO [88f59f6a] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [c40cf4b8] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 as ubuntu@3.99.189.244
+ DEBUG [c40cf4b8] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d8d8387729fdab146d96.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 )
+  INFO [c40cf4b8] Finished in 1.335 seconds with exit status 0 (successful).
+ DEBUG [8ced199e] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [8ced199e] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [8ced199e] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [07af6f1b] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [07af6f1b] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d8d8387729fdab146d96.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [07af6f1b] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [07af6f1b] Finished in 0.073 seconds with exit status 0 (successful).
+ DEBUG [b008f2f7] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [b008f2f7] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451'" 1>&2; false; fi
+ DEBUG [b008f2f7] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [b2c206f1] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [b2c206f1] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [b2c206f1] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [e38c1913] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config as ubuntu@3.99.189.244
+ DEBUG [e38c1913] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config
+  INFO [e38c1913] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [73bb3f7a] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [73bb3f7a] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml ]
+ DEBUG [73bb3f7a] Finished in 0.066 seconds with exit status 1 (failed).
+ DEBUG [5c7b7703] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [5c7b7703] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml ]
+ DEBUG [5c7b7703] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [d8b73918] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [d8b73918] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml
+  INFO [d8b73918] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [88386f56] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [88386f56] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/database.yml
+  INFO [88386f56] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [f7d145da] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [f7d145da] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml ]
+ DEBUG [f7d145da] Finished in 0.066 seconds with exit status 1 (failed).
+ DEBUG [aa9238ac] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [aa9238ac] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml ]
+ DEBUG [aa9238ac] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [3d8a2114] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [3d8a2114] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml
+  INFO [3d8a2114] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [c3caa06d] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [c3caa06d] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/config/application.yml
+  INFO [c3caa06d] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [aa055024] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public as ubuntu@3.99.189.244
+ DEBUG [aa055024] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public
+  INFO [aa055024] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [7a0168af] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [7a0168af] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/pids ]
+ DEBUG [7a0168af] Finished in 0.025 seconds with exit status 1 (failed).
+ DEBUG [cca49853] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [cca49853] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/pids ]
+ DEBUG [cca49853] Finished in 0.082 seconds with exit status 1 (failed).
+  INFO [35863219] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [35863219] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/pids
+  INFO [35863219] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [e913169d] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [e913169d] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/sockets ]
+ DEBUG [e913169d] Finished in 0.066 seconds with exit status 1 (failed).
+ DEBUG [56463fa2] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [56463fa2] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/sockets ]
+ DEBUG [56463fa2] Finished in 0.024 seconds with exit status 1 (failed).
+  INFO [f670fb06] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [f670fb06] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/tmp/sockets
+  INFO [f670fb06] Finished in 0.077 seconds with exit status 0 (successful).
+ DEBUG [dbb4b7f4] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log ] as ubuntu@3.99.189.244
+ DEBUG [dbb4b7f4] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log ]
+ DEBUG [dbb4b7f4] Finished in 0.021 seconds with exit status 1 (failed).
+ DEBUG [389997cd] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log ] as ubuntu@3.99.189.244
+ DEBUG [389997cd] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log ]
+ DEBUG [389997cd] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [68b2a291] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log as ubuntu@3.99.189.244
+ DEBUG [68b2a291] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log
+  INFO [68b2a291] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [f98a1d5e] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log as ubuntu@3.99.189.244
+ DEBUG [f98a1d5e] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/log
+  INFO [f98a1d5e] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [01079b63] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [01079b63] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public/assets ]
+ DEBUG [01079b63] Finished in 0.026 seconds with exit status 1 (failed).
+ DEBUG [128946c3] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [128946c3] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public/assets ]
+ DEBUG [128946c3] Finished in 0.076 seconds with exit status 1 (failed).
+  INFO [c0b485df] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public/assets as ubuntu@3.99.189.244
+ DEBUG [c0b485df] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451/public/assets
+  INFO [c0b485df] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [e70f4f7f] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [e70f4f7f] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451'" 1>&2; false; fi
+ DEBUG [e70f4f7f] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [3d6d7bcd] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [3d6d7bcd] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055451 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [3d6d7bcd] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [3d6d7bcd] Finished in 0.491 seconds with exit status 0 (successful).
+  INFO [2685c0be] Running /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD as ubuntu@3.99.189.244
+ DEBUG [2685c0be] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d8d8387729fdab146d96.sh" ; /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD )
+ DEBUG [2685c0be] 	abac8406d27f76e846d689310f3592cf68f5bb09	HEAD
+  INFO [2685c0be] Finished in 0.467 seconds with exit status 0 (successful).
+  INFO [3ed70efb] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases as ubuntu@3.99.189.244
+ DEBUG [3ed70efb] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases
+  INFO [3ed70efb] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [5ccd1202] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets as ubuntu@3.99.189.244
+ DEBUG [5ccd1202] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets
+  INFO [5ccd1202] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [cde008ff] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config as ubuntu@3.99.189.244
+ DEBUG [cde008ff] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config
+  INFO [cde008ff] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [1a23ea3e] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [1a23ea3e] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ]
+ DEBUG [1a23ea3e] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [dd363885] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [dd363885] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ]
+ DEBUG [dd363885] Finished in 0.070 seconds with exit status 1 (failed).
+ ERROR linked file /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml does not exist on 3.99.189.244
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-15 00:57:38 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [afa9f96a] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [afa9f96a] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [afa9f96a] Finished in 0.643 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [cfa3502f] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [cfa3502f] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [cfa3502f] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [b6c7d4a9] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [b6c7d4a9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b6c7d4a9] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-f42a3b044d4245c66588.sh 0.0%
+  INFO Uploading /tmp/git-ssh-f42a3b044d4245c66588.sh 100.0%
+  INFO [98d42c12] Running /usr/bin/env chmod 700 /tmp/git-ssh-f42a3b044d4245c66588.sh as ubuntu@3.99.189.244
+ DEBUG [98d42c12] Command: /usr/bin/env chmod 700 /tmp/git-ssh-f42a3b044d4245c66588.sh
+  INFO [98d42c12] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [2d22102d] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [2d22102d] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [2d22102d] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo
+ DEBUG [6d8a9c39] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [6d8a9c39] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [6d8a9c39] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [fe8129d1] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [fe8129d1] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f42a3b044d4245c66588.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [fe8129d1] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [a5c31175] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [a5c31175] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f42a3b044d4245c66588.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [a5c31175] 	Fetching origin
+  INFO [a5c31175] Finished in 0.442 seconds with exit status 0 (successful).
+ DEBUG [1518ac8b] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [1518ac8b] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [1518ac8b] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [199e868e] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 as ubuntu@3.99.189.244
+ DEBUG [199e868e] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f42a3b044d4245c66588.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 )
+  INFO [199e868e] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [b73579f8] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 as ubuntu@3.99.189.244
+ DEBUG [b73579f8] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f42a3b044d4245c66588.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 )
+  INFO [b73579f8] Finished in 1.323 seconds with exit status 0 (successful).
+ DEBUG [210555f4] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [210555f4] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [210555f4] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [14b9bf19] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [14b9bf19] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f42a3b044d4245c66588.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [14b9bf19] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [14b9bf19] Finished in 0.067 seconds with exit status 0 (successful).
+ DEBUG [c7ec0f53] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [c7ec0f53] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi
+ DEBUG [c7ec0f53] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [54272897] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [54272897] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [54272897] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [ebdae967] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config as ubuntu@3.99.189.244
+ DEBUG [ebdae967] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config
+  INFO [ebdae967] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [24c2a6be] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [24c2a6be] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml ]
+ DEBUG [24c2a6be] Finished in 0.065 seconds with exit status 1 (failed).
+ DEBUG [ed9f9c60] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [ed9f9c60] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml ]
+ DEBUG [ed9f9c60] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [c45ada1b] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [c45ada1b] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml
+  INFO [c45ada1b] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [1701d76b] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [1701d76b] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/database.yml
+  INFO [1701d76b] Finished in 0.019 seconds with exit status 0 (successful).
+ DEBUG [f2623d25] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [f2623d25] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml ]
+ DEBUG [f2623d25] Finished in 0.064 seconds with exit status 1 (failed).
+ DEBUG [7a7e9b74] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [7a7e9b74] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml ]
+ DEBUG [7a7e9b74] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [3c2cb093] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [3c2cb093] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml
+  INFO [3c2cb093] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [47d78b54] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [47d78b54] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/config/application.yml
+  INFO [47d78b54] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [0ba1c514] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public as ubuntu@3.99.189.244
+ DEBUG [0ba1c514] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public
+  INFO [0ba1c514] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [f7354a69] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [f7354a69] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/pids ]
+ DEBUG [f7354a69] Finished in 0.023 seconds with exit status 1 (failed).
+ DEBUG [b1afeefa] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [b1afeefa] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/pids ]
+ DEBUG [b1afeefa] Finished in 0.065 seconds with exit status 1 (failed).
+  INFO [2529cf5f] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [2529cf5f] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/pids
+  INFO [2529cf5f] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [376fb134] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [376fb134] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/sockets ]
+ DEBUG [376fb134] Finished in 0.063 seconds with exit status 1 (failed).
+ DEBUG [76467f79] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [76467f79] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/sockets ]
+ DEBUG [76467f79] Finished in 0.022 seconds with exit status 1 (failed).
+  INFO [c5db99a7] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [c5db99a7] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/tmp/sockets
+  INFO [c5db99a7] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [6e923e63] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log ] as ubuntu@3.99.189.244
+ DEBUG [6e923e63] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log ]
+ DEBUG [6e923e63] Finished in 0.022 seconds with exit status 1 (failed).
+ DEBUG [fbb71354] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log ] as ubuntu@3.99.189.244
+ DEBUG [fbb71354] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log ]
+ DEBUG [fbb71354] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [1d4aec48] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log as ubuntu@3.99.189.244
+ DEBUG [1d4aec48] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log
+  INFO [1d4aec48] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [1a892040] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log as ubuntu@3.99.189.244
+ DEBUG [1a892040] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/log
+  INFO [1a892040] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [d73d7041] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [d73d7041] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public/assets ]
+ DEBUG [d73d7041] Finished in 0.022 seconds with exit status 1 (failed).
+ DEBUG [f430e1ed] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [f430e1ed] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public/assets ]
+ DEBUG [f430e1ed] Finished in 0.066 seconds with exit status 1 (failed).
+  INFO [f03f3831] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public/assets as ubuntu@3.99.189.244
+ DEBUG [f03f3831] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/public/assets
+  INFO [f03f3831] Finished in 0.025 seconds with exit status 0 (successful).
+ DEBUG [05f28be7] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [05f28be7] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi
+ DEBUG [05f28be7] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [f49ea3f9] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [f49ea3f9] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [f49ea3f9] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [f49ea3f9] Finished in 0.522 seconds with exit status 0 (successful).
+  INFO [bdc7c964] Running /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD as ubuntu@3.99.189.244
+ DEBUG [bdc7c964] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-f42a3b044d4245c66588.sh" ; /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD )
+ DEBUG [bdc7c964] 	abac8406d27f76e846d689310f3592cf68f5bb09	HEAD
+  INFO [bdc7c964] Finished in 0.453 seconds with exit status 0 (successful).
+  INFO [a3de04ef] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases as ubuntu@3.99.189.244
+ DEBUG [a3de04ef] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases
+  INFO [a3de04ef] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [7444cc0f] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets as ubuntu@3.99.189.244
+ DEBUG [7444cc0f] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets
+  INFO [7444cc0f] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [60b023a7] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config as ubuntu@3.99.189.244
+ DEBUG [60b023a7] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config
+  INFO [60b023a7] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [550913de] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [550913de] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ]
+ DEBUG [550913de] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [6a10fde2] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [6a10fde2] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ]
+ DEBUG [6a10fde2] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [4afde122] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ] as ubuntu@3.99.189.244
+ DEBUG [4afde122] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ]
+ DEBUG [4afde122] Finished in 0.025 seconds with exit status 1 (failed).
+  WARN puma.rb NOT FOUND!
+ DEBUG Uploading /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb 0.0%
+  INFO Uploading /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb 100.0%
+  INFO puma.rb generated
+ DEBUG [f545becd] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/REVISION ] as ubuntu@3.99.189.244
+ DEBUG [f545becd] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/REVISION ]
+ DEBUG [f545becd] Finished in 0.025 seconds with exit status 0 (successful).
+ DEBUG [7c65421c] Running /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/REVISION 2>/dev/null as ubuntu@3.99.189.244
+ DEBUG [7c65421c] Command: /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738/REVISION 2>/dev/null
+ DEBUG [7c65421c] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [7c65421c] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [e4931f91] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [e4931f91] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi
+ DEBUG [e4931f91] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [3e731797] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as ubuntu@3.99.189.244
+ DEBUG [3e731797] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+ DEBUG [3e731797] 	You are replacing the current local value of deployment, which is currently nil
+  INFO [3e731797] Finished in 0.962 seconds with exit status 0 (successful).
+  INFO [2e56d32a] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle as ubuntu@3.99.189.244
+ DEBUG [2e56d32a] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle
+ DEBUG [2e56d32a] 	You are replacing the current local value of path, which is currently nil
+  INFO [2e56d32a] Finished in 0.936 seconds with exit status 0 (successful).
+  INFO [1a7b1d2a] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production as ubuntu@3.99.189.244
+ DEBUG [1a7b1d2a] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production
+ DEBUG [1a7b1d2a] 	You are replacing the current local value of without, which is currently nil
+  INFO [1a7b1d2a] Finished in 0.965 seconds with exit status 0 (successful).
+ DEBUG [ba364088] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [ba364088] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738'" 1>&2; false; fi
+ DEBUG [ba364088] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [49ec0c1f] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check as ubuntu@3.99.189.244
+ DEBUG [49ec0c1f] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [49ec0c1f] 	You must use Bundler 2 or greater with this lockfile.
+ DEBUG [49ec0c1f] Finished in 1.031 seconds with exit status 20 (failed).
+  INFO [9490eede] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet as ubuntu@3.99.189.244
+ DEBUG [9490eede] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115055738 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet
+ DEBUG [9490eede] 	You must use Bundler 2 or greater with this lockfile.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-15 01:09:45 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9844c0a8] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [9844c0a8] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [9844c0a8] Finished in 0.673 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [89d0bcf9] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [89d0bcf9] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [89d0bcf9] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [ee22c581] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [ee22c581] Command: /usr/bin/env mkdir -p /tmp
+  INFO [ee22c581] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-d7dccb8c3318113f3af9.sh 0.0%
+  INFO Uploading /tmp/git-ssh-d7dccb8c3318113f3af9.sh 100.0%
+  INFO [b99a2ce0] Running /usr/bin/env chmod 700 /tmp/git-ssh-d7dccb8c3318113f3af9.sh as ubuntu@3.99.189.244
+ DEBUG [b99a2ce0] Command: /usr/bin/env chmod 700 /tmp/git-ssh-d7dccb8c3318113f3af9.sh
+  INFO [b99a2ce0] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [11f06cf3] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [11f06cf3] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [11f06cf3] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo
+ DEBUG [fc11a5c4] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [fc11a5c4] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [fc11a5c4] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [abbfd11b] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [abbfd11b] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d7dccb8c3318113f3af9.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [abbfd11b] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [531161f3] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [531161f3] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d7dccb8c3318113f3af9.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [531161f3] 	Fetching origin
+  INFO [531161f3] Finished in 0.433 seconds with exit status 0 (successful).
+ DEBUG [0315b8d1] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [0315b8d1] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [0315b8d1] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [8757ae11] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 as ubuntu@3.99.189.244
+ DEBUG [8757ae11] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d7dccb8c3318113f3af9.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 )
+  INFO [8757ae11] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [ab31a73e] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 as ubuntu@3.99.189.244
+ DEBUG [ab31a73e] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d7dccb8c3318113f3af9.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 )
+  INFO [ab31a73e] Finished in 1.286 seconds with exit status 0 (successful).
+ DEBUG [5dc0f23b] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [5dc0f23b] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [5dc0f23b] Finished in 0.031 seconds with exit status 0 (successful).
+ DEBUG [940e1c8c] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [940e1c8c] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d7dccb8c3318113f3af9.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [940e1c8c] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [940e1c8c] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [e434542e] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [e434542e] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi
+ DEBUG [e434542e] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [197d523b] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [197d523b] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [197d523b] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [34264ded] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config as ubuntu@3.99.189.244
+ DEBUG [34264ded] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config
+  INFO [34264ded] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [3a73c6b4] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [3a73c6b4] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml ]
+ DEBUG [3a73c6b4] Finished in 0.061 seconds with exit status 1 (failed).
+ DEBUG [75b760ad] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [75b760ad] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml ]
+ DEBUG [75b760ad] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [b50c5e4a] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [b50c5e4a] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml
+  INFO [b50c5e4a] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [76048156] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [76048156] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/database.yml
+  INFO [76048156] Finished in 0.022 seconds with exit status 0 (successful).
+ DEBUG [db709d95] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [db709d95] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml ]
+ DEBUG [db709d95] Finished in 0.065 seconds with exit status 1 (failed).
+ DEBUG [2b403fcb] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [2b403fcb] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml ]
+ DEBUG [2b403fcb] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [8d3d1d5f] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [8d3d1d5f] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml
+  INFO [8d3d1d5f] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [74b7d95c] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [74b7d95c] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/config/application.yml
+  INFO [74b7d95c] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [98cde180] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public as ubuntu@3.99.189.244
+ DEBUG [98cde180] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public
+  INFO [98cde180] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [4a3384ce] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [4a3384ce] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/pids ]
+ DEBUG [4a3384ce] Finished in 0.024 seconds with exit status 1 (failed).
+ DEBUG [262e14e1] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [262e14e1] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/pids ]
+ DEBUG [262e14e1] Finished in 0.067 seconds with exit status 1 (failed).
+  INFO [3e762457] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [3e762457] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/pids
+  INFO [3e762457] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [a6937bdf] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [a6937bdf] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/sockets ]
+ DEBUG [a6937bdf] Finished in 0.069 seconds with exit status 1 (failed).
+ DEBUG [8a685594] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [8a685594] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/sockets ]
+ DEBUG [8a685594] Finished in 0.033 seconds with exit status 1 (failed).
+  INFO [00c9eac9] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [00c9eac9] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/tmp/sockets
+  INFO [00c9eac9] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [659b4105] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log ] as ubuntu@3.99.189.244
+ DEBUG [659b4105] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log ]
+ DEBUG [659b4105] Finished in 0.032 seconds with exit status 1 (failed).
+ DEBUG [97546bda] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log ] as ubuntu@3.99.189.244
+ DEBUG [97546bda] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log ]
+ DEBUG [97546bda] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [ff1740f5] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log as ubuntu@3.99.189.244
+ DEBUG [ff1740f5] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log
+  INFO [ff1740f5] Finished in 0.033 seconds with exit status 0 (successful).
+  INFO [43f6d05c] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log as ubuntu@3.99.189.244
+ DEBUG [43f6d05c] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/log
+  INFO [43f6d05c] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [7b00fc77] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [7b00fc77] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public/assets ]
+ DEBUG [7b00fc77] Finished in 0.025 seconds with exit status 1 (failed).
+ DEBUG [1f7f3749] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [1f7f3749] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public/assets ]
+ DEBUG [1f7f3749] Finished in 0.066 seconds with exit status 1 (failed).
+  INFO [e00d0b50] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public/assets as ubuntu@3.99.189.244
+ DEBUG [e00d0b50] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/public/assets
+  INFO [e00d0b50] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [6ff37f8e] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [6ff37f8e] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi
+ DEBUG [6ff37f8e] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [8eb47407] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [8eb47407] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [8eb47407] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [8eb47407] Finished in 0.580 seconds with exit status 0 (successful).
+  INFO [7996a9f4] Running /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD as ubuntu@3.99.189.244
+ DEBUG [7996a9f4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-d7dccb8c3318113f3af9.sh" ; /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD )
+ DEBUG [7996a9f4] 	abac8406d27f76e846d689310f3592cf68f5bb09	HEAD
+  INFO [7996a9f4] Finished in 0.459 seconds with exit status 0 (successful).
+  INFO [9c197c3d] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases as ubuntu@3.99.189.244
+ DEBUG [9c197c3d] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases
+  INFO [9c197c3d] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [2f7ec97e] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets as ubuntu@3.99.189.244
+ DEBUG [2f7ec97e] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets
+  INFO [2f7ec97e] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [ed5e0d73] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config as ubuntu@3.99.189.244
+ DEBUG [ed5e0d73] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config
+  INFO [ed5e0d73] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [b3e12afe] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [b3e12afe] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ]
+ DEBUG [b3e12afe] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [2e27e7ef] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [2e27e7ef] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ]
+ DEBUG [2e27e7ef] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [4fc222a2] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ] as ubuntu@3.99.189.244
+ DEBUG [4fc222a2] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ]
+ DEBUG [4fc222a2] Finished in 0.033 seconds with exit status 0 (successful).
+ DEBUG [5bf8d42f] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/REVISION ] as ubuntu@3.99.189.244
+ DEBUG [5bf8d42f] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/REVISION ]
+ DEBUG [5bf8d42f] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [3a81594a] Running /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/REVISION 2>/dev/null as ubuntu@3.99.189.244
+ DEBUG [3a81594a] Command: /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945/REVISION 2>/dev/null
+ DEBUG [3a81594a] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [3a81594a] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [f264c42c] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [f264c42c] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi
+ DEBUG [f264c42c] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [80f1a013] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as ubuntu@3.99.189.244
+ DEBUG [80f1a013] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+ DEBUG [80f1a013] 	You are replacing the current local value of deployment, which is currently nil
+  INFO [80f1a013] Finished in 0.918 seconds with exit status 0 (successful).
+  INFO [80c834bf] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle as ubuntu@3.99.189.244
+ DEBUG [80c834bf] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle
+ DEBUG [80c834bf] 	You are replacing the current local value of path, which is currently nil
+  INFO [80c834bf] Finished in 0.975 seconds with exit status 0 (successful).
+  INFO [e318904a] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production as ubuntu@3.99.189.244
+ DEBUG [e318904a] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production
+ DEBUG [e318904a] 	You are replacing the current local value of without, which is currently nil
+  INFO [e318904a] Finished in 0.991 seconds with exit status 0 (successful).
+ DEBUG [5008b3cf] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [5008b3cf] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945'" 1>&2; false; fi
+ DEBUG [5008b3cf] Finished in 0.067 seconds with exit status 0 (successful).
+ DEBUG [b4aa0895] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check as ubuntu@3.99.189.244
+ DEBUG [b4aa0895] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [b4aa0895] 	You must use Bundler 2 or greater with this lockfile.
+ DEBUG [b4aa0895] Finished in 0.973 seconds with exit status 20 (failed).
+  INFO [ceab9158] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet as ubuntu@3.99.189.244
+ DEBUG [ceab9158] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115060945 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet
+ DEBUG [ceab9158] 	You must use Bundler 2 or greater with this lockfile.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-15 01:17:43 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bcf5bec8] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [bcf5bec8] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [bcf5bec8] Finished in 0.714 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [acf7ec74] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [acf7ec74] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [acf7ec74] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [2c881b42] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [2c881b42] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2c881b42] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-383049a72a53b385ac31.sh 0.0%
+  INFO Uploading /tmp/git-ssh-383049a72a53b385ac31.sh 100.0%
+  INFO [8632418b] Running /usr/bin/env chmod 700 /tmp/git-ssh-383049a72a53b385ac31.sh as ubuntu@3.99.189.244
+ DEBUG [8632418b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-383049a72a53b385ac31.sh
+  INFO [8632418b] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [a268bbb3] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [a268bbb3] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [a268bbb3] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo
+ DEBUG [65a23e0e] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [65a23e0e] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [65a23e0e] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [e6cc205e] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [e6cc205e] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-383049a72a53b385ac31.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [e6cc205e] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [fbe23878] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [fbe23878] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-383049a72a53b385ac31.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [fbe23878] 	Fetching origin
+  INFO [fbe23878] Finished in 0.497 seconds with exit status 0 (successful).
+ DEBUG [46c1af47] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [46c1af47] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [46c1af47] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [a088dfc0] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 as ubuntu@3.99.189.244
+ DEBUG [a088dfc0] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-383049a72a53b385ac31.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 )
+  INFO [a088dfc0] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [d6b62b32] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 as ubuntu@3.99.189.244
+ DEBUG [d6b62b32] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-383049a72a53b385ac31.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 )
+  INFO [d6b62b32] Finished in 1.330 seconds with exit status 0 (successful).
+ DEBUG [970bbe2a] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [970bbe2a] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [970bbe2a] Finished in 0.041 seconds with exit status 0 (successful).
+ DEBUG [16834a6a] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [16834a6a] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-383049a72a53b385ac31.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [16834a6a] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [16834a6a] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [45df5497] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [45df5497] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi
+ DEBUG [45df5497] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [9c87dc30] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [9c87dc30] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [9c87dc30] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [ceec3f79] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config as ubuntu@3.99.189.244
+ DEBUG [ceec3f79] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config
+  INFO [ceec3f79] Finished in 0.018 seconds with exit status 0 (successful).
+ DEBUG [c3eb0273] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [c3eb0273] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml ]
+ DEBUG [c3eb0273] Finished in 0.063 seconds with exit status 1 (failed).
+ DEBUG [400ff578] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [400ff578] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml ]
+ DEBUG [400ff578] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [9d54027e] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [9d54027e] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml
+  INFO [9d54027e] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [5bb6a9e5] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [5bb6a9e5] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/database.yml
+  INFO [5bb6a9e5] Finished in 0.025 seconds with exit status 0 (successful).
+ DEBUG [42f996c1] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [42f996c1] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml ]
+ DEBUG [42f996c1] Finished in 0.068 seconds with exit status 1 (failed).
+ DEBUG [28719fea] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [28719fea] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml ]
+ DEBUG [28719fea] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [d4483bc3] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [d4483bc3] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml
+  INFO [d4483bc3] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [fe136515] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [fe136515] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/config/application.yml
+  INFO [fe136515] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [4cc9f7ed] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public as ubuntu@3.99.189.244
+ DEBUG [4cc9f7ed] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public
+  INFO [4cc9f7ed] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [301d3d34] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [301d3d34] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/pids ]
+ DEBUG [301d3d34] Finished in 0.024 seconds with exit status 1 (failed).
+ DEBUG [1986c117] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [1986c117] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/pids ]
+ DEBUG [1986c117] Finished in 0.085 seconds with exit status 1 (failed).
+  INFO [70d19df9] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [70d19df9] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/pids
+  INFO [70d19df9] Finished in 0.029 seconds with exit status 0 (successful).
+ DEBUG [25fc62cd] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [25fc62cd] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/sockets ]
+ DEBUG [25fc62cd] Finished in 0.071 seconds with exit status 1 (failed).
+ DEBUG [0e61ddf0] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [0e61ddf0] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/sockets ]
+ DEBUG [0e61ddf0] Finished in 0.027 seconds with exit status 1 (failed).
+  INFO [c0aac434] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [c0aac434] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/tmp/sockets
+  INFO [c0aac434] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [516b8a9c] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log ] as ubuntu@3.99.189.244
+ DEBUG [516b8a9c] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log ]
+ DEBUG [516b8a9c] Finished in 0.030 seconds with exit status 1 (failed).
+ DEBUG [0830f461] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log ] as ubuntu@3.99.189.244
+ DEBUG [0830f461] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log ]
+ DEBUG [0830f461] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [b634654a] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log as ubuntu@3.99.189.244
+ DEBUG [b634654a] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log
+  INFO [b634654a] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [a2004267] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log as ubuntu@3.99.189.244
+ DEBUG [a2004267] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/log
+  INFO [a2004267] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [ea9cb219] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [ea9cb219] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public/assets ]
+ DEBUG [ea9cb219] Finished in 0.023 seconds with exit status 1 (failed).
+ DEBUG [91a7d41e] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [91a7d41e] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public/assets ]
+ DEBUG [91a7d41e] Finished in 0.064 seconds with exit status 1 (failed).
+  INFO [3399e5ed] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public/assets as ubuntu@3.99.189.244
+ DEBUG [3399e5ed] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/public/assets
+  INFO [3399e5ed] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [fc527c91] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [fc527c91] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi
+ DEBUG [fc527c91] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [37f94e49] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [37f94e49] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [37f94e49] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [37f94e49] Finished in 0.511 seconds with exit status 0 (successful).
+  INFO [459c61de] Running /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD as ubuntu@3.99.189.244
+ DEBUG [459c61de] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-383049a72a53b385ac31.sh" ; /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD )
+ DEBUG [459c61de] 	abac8406d27f76e846d689310f3592cf68f5bb09	HEAD
+  INFO [459c61de] Finished in 0.459 seconds with exit status 0 (successful).
+  INFO [91f5ab07] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases as ubuntu@3.99.189.244
+ DEBUG [91f5ab07] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases
+  INFO [91f5ab07] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [6d34f471] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets as ubuntu@3.99.189.244
+ DEBUG [6d34f471] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets
+  INFO [6d34f471] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [922f03ff] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config as ubuntu@3.99.189.244
+ DEBUG [922f03ff] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config
+  INFO [922f03ff] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [fd63f4a2] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [fd63f4a2] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ]
+ DEBUG [fd63f4a2] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [d506924d] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [d506924d] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ]
+ DEBUG [d506924d] Finished in 0.067 seconds with exit status 0 (successful).
+ DEBUG [58397266] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ] as ubuntu@3.99.189.244
+ DEBUG [58397266] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ]
+ DEBUG [58397266] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [3fa61106] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/REVISION ] as ubuntu@3.99.189.244
+ DEBUG [3fa61106] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/REVISION ]
+ DEBUG [3fa61106] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [d7278c5f] Running /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/REVISION 2>/dev/null as ubuntu@3.99.189.244
+ DEBUG [d7278c5f] Command: /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744/REVISION 2>/dev/null
+ DEBUG [d7278c5f] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [d7278c5f] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [aa57444e] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [aa57444e] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi
+ DEBUG [aa57444e] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [c0e15ddd] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as ubuntu@3.99.189.244
+ DEBUG [c0e15ddd] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+ DEBUG [c0e15ddd] 	You are replacing the current local value of deployment, which is currently nil
+  INFO [c0e15ddd] Finished in 0.929 seconds with exit status 0 (successful).
+  INFO [9b28683d] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle as ubuntu@3.99.189.244
+ DEBUG [9b28683d] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle
+ DEBUG [9b28683d] 	You are replacing the current local value of path, which is currently nil
+  INFO [9b28683d] Finished in 0.963 seconds with exit status 0 (successful).
+  INFO [5d245dab] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production as ubuntu@3.99.189.244
+ DEBUG [5d245dab] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production
+ DEBUG [5d245dab] 	You are replacing the current local value of without, which is currently nil
+  INFO [5d245dab] Finished in 0.941 seconds with exit status 0 (successful).
+ DEBUG [6a32a631] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [6a32a631] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744'" 1>&2; false; fi
+ DEBUG [6a32a631] Finished in 0.059 seconds with exit status 0 (successful).
+ DEBUG [7d92c600] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check as ubuntu@3.99.189.244
+ DEBUG [7d92c600] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [7d92c600] 	You must use Bundler 2 or greater with this lockfile.
+ DEBUG [7d92c600] Finished in 0.954 seconds with exit status 20 (failed).
+  INFO [3c5726b5] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet as ubuntu@3.99.189.244
+ DEBUG [3c5726b5] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115061744 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet
+ DEBUG [3c5726b5] 	You must use Bundler 2 or greater with this lockfile.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-15 01:22:52 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [5a40f03c] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [5a40f03c] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [5a40f03c] Finished in 0.775 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [4bffd271] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [4bffd271] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [4bffd271] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [e431a097] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [e431a097] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e431a097] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-1d8c8848c92806bc4b82.sh 0.0%
+  INFO Uploading /tmp/git-ssh-1d8c8848c92806bc4b82.sh 100.0%
+  INFO [97112f68] Running /usr/bin/env chmod 700 /tmp/git-ssh-1d8c8848c92806bc4b82.sh as ubuntu@3.99.189.244
+ DEBUG [97112f68] Command: /usr/bin/env chmod 700 /tmp/git-ssh-1d8c8848c92806bc4b82.sh
+  INFO [97112f68] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [2e24ff67] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [2e24ff67] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [2e24ff67] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo
+ DEBUG [99543755] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [99543755] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [99543755] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [c6f1f2d0] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [c6f1f2d0] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1d8c8848c92806bc4b82.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [c6f1f2d0] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [ac8ee6e7] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [ac8ee6e7] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1d8c8848c92806bc4b82.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ac8ee6e7] 	Fetching origin
+  INFO [ac8ee6e7] Finished in 0.440 seconds with exit status 0 (successful).
+ DEBUG [e420fe37] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [e420fe37] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [e420fe37] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [6f5bd3a8] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 as ubuntu@3.99.189.244
+ DEBUG [6f5bd3a8] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1d8c8848c92806bc4b82.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 )
+  INFO [6f5bd3a8] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [8dd9e0e0] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 as ubuntu@3.99.189.244
+ DEBUG [8dd9e0e0] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1d8c8848c92806bc4b82.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 )
+  INFO [8dd9e0e0] Finished in 1.267 seconds with exit status 0 (successful).
+ DEBUG [d6913ee2] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [d6913ee2] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [d6913ee2] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [5a596924] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [5a596924] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1d8c8848c92806bc4b82.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [5a596924] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [5a596924] Finished in 0.071 seconds with exit status 0 (successful).
+ DEBUG [283c362d] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [283c362d] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi
+ DEBUG [283c362d] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [05e7ac5f] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [05e7ac5f] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [05e7ac5f] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [4b18dfd5] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config as ubuntu@3.99.189.244
+ DEBUG [4b18dfd5] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config
+  INFO [4b18dfd5] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [625d4f97] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [625d4f97] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml ]
+ DEBUG [625d4f97] Finished in 0.060 seconds with exit status 1 (failed).
+ DEBUG [45e70173] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [45e70173] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml ]
+ DEBUG [45e70173] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [916c94d4] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [916c94d4] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml
+  INFO [916c94d4] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [fad1fc08] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [fad1fc08] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/database.yml
+  INFO [fad1fc08] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [acf5235f] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [acf5235f] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml ]
+ DEBUG [acf5235f] Finished in 0.063 seconds with exit status 1 (failed).
+ DEBUG [325915b2] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [325915b2] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml ]
+ DEBUG [325915b2] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [9eae6a6d] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [9eae6a6d] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml
+  INFO [9eae6a6d] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [f3d29e1a] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [f3d29e1a] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/config/application.yml
+  INFO [f3d29e1a] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [04ecd905] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public as ubuntu@3.99.189.244
+ DEBUG [04ecd905] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public
+  INFO [04ecd905] Finished in 0.067 seconds with exit status 0 (successful).
+ DEBUG [2da526c8] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [2da526c8] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/pids ]
+ DEBUG [2da526c8] Finished in 0.022 seconds with exit status 1 (failed).
+ DEBUG [45844062] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [45844062] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/pids ]
+ DEBUG [45844062] Finished in 0.066 seconds with exit status 1 (failed).
+  INFO [a0f804d5] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [a0f804d5] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/pids
+  INFO [a0f804d5] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [b8b7a160] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [b8b7a160] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/sockets ]
+ DEBUG [b8b7a160] Finished in 0.063 seconds with exit status 1 (failed).
+ DEBUG [249f13f7] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [249f13f7] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/sockets ]
+ DEBUG [249f13f7] Finished in 0.021 seconds with exit status 1 (failed).
+  INFO [8f05699d] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [8f05699d] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/tmp/sockets
+  INFO [8f05699d] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [59adc1bd] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log ] as ubuntu@3.99.189.244
+ DEBUG [59adc1bd] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log ]
+ DEBUG [59adc1bd] Finished in 0.029 seconds with exit status 1 (failed).
+ DEBUG [8658fcd2] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log ] as ubuntu@3.99.189.244
+ DEBUG [8658fcd2] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log ]
+ DEBUG [8658fcd2] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [a6b2bd40] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log as ubuntu@3.99.189.244
+ DEBUG [a6b2bd40] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log
+  INFO [a6b2bd40] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [8fd2385b] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log as ubuntu@3.99.189.244
+ DEBUG [8fd2385b] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/log
+  INFO [8fd2385b] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [8bf38c35] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [8bf38c35] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public/assets ]
+ DEBUG [8bf38c35] Finished in 0.023 seconds with exit status 1 (failed).
+ DEBUG [2c6ffb58] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [2c6ffb58] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public/assets ]
+ DEBUG [2c6ffb58] Finished in 0.065 seconds with exit status 1 (failed).
+  INFO [3efa5bac] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public/assets as ubuntu@3.99.189.244
+ DEBUG [3efa5bac] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/public/assets
+  INFO [3efa5bac] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [5ac99a63] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [5ac99a63] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi
+ DEBUG [5ac99a63] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [16b511f1] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [16b511f1] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [16b511f1] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [16b511f1] Finished in 0.491 seconds with exit status 0 (successful).
+  INFO [f106412c] Running /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD as ubuntu@3.99.189.244
+ DEBUG [f106412c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-1d8c8848c92806bc4b82.sh" ; /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD )
+ DEBUG [f106412c] 	Warning: Permanently added the ECDSA host key for IP address '140.82.114.3' to the list of known hosts.
+ DEBUG [f106412c] 	abac8406d27f76e846d689310f3592cf68f5bb09	HEAD
+  INFO [f106412c] Finished in 0.462 seconds with exit status 0 (successful).
+  INFO [32419cd3] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases as ubuntu@3.99.189.244
+ DEBUG [32419cd3] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases
+  INFO [32419cd3] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [4a76fa82] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets as ubuntu@3.99.189.244
+ DEBUG [4a76fa82] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets
+  INFO [4a76fa82] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [970f4971] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config as ubuntu@3.99.189.244
+ DEBUG [970f4971] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config
+  INFO [970f4971] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [3acfe135] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [3acfe135] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ]
+ DEBUG [3acfe135] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [b1447af3] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [b1447af3] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ]
+ DEBUG [b1447af3] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [5c7c5cbd] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ] as ubuntu@3.99.189.244
+ DEBUG [5c7c5cbd] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ]
+ DEBUG [5c7c5cbd] Finished in 0.022 seconds with exit status 0 (successful).
+ DEBUG [b229f3de] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/REVISION ] as ubuntu@3.99.189.244
+ DEBUG [b229f3de] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/REVISION ]
+ DEBUG [b229f3de] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [17df9c0b] Running /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/REVISION 2>/dev/null as ubuntu@3.99.189.244
+ DEBUG [17df9c0b] Command: /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253/REVISION 2>/dev/null
+ DEBUG [17df9c0b] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [17df9c0b] Finished in 0.025 seconds with exit status 0 (successful).
+ DEBUG [fb743d0f] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [fb743d0f] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi
+ DEBUG [fb743d0f] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [fd3fd7dd] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as ubuntu@3.99.189.244
+ DEBUG [fd3fd7dd] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+ DEBUG [fd3fd7dd] 	You are replacing the current local value of deployment, which is currently nil
+  INFO [fd3fd7dd] Finished in 0.911 seconds with exit status 0 (successful).
+  INFO [8fb936c5] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle as ubuntu@3.99.189.244
+ DEBUG [8fb936c5] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle
+ DEBUG [8fb936c5] 	You are replacing the current local value of path, which is currently nil
+  INFO [8fb936c5] Finished in 1.037 seconds with exit status 0 (successful).
+  INFO [e11c03af] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production as ubuntu@3.99.189.244
+ DEBUG [e11c03af] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production
+ DEBUG [e11c03af] 	You are replacing the current local value of without, which is currently nil
+  INFO [e11c03af] Finished in 1.023 seconds with exit status 0 (successful).
+ DEBUG [cbd50633] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [cbd50633] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253'" 1>&2; false; fi
+ DEBUG [cbd50633] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [a44a085c] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check as ubuntu@3.99.189.244
+ DEBUG [a44a085c] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [a44a085c] 	You must use Bundler 2 or greater with this lockfile.
+ DEBUG [a44a085c] Finished in 1.002 seconds with exit status 20 (failed).
+  INFO [25bcb0bc] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet as ubuntu@3.99.189.244
+ DEBUG [25bcb0bc] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062253 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet
+ DEBUG [25bcb0bc] 	You must use Bundler 2 or greater with this lockfile.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-15 01:25:37 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c6a57550] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as ubuntu@3.99.189.244
+ DEBUG [c6a57550] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
+  INFO [c6a57550] Finished in 0.569 seconds with exit status 0 (successful).
+ DEBUG Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /Users/marcalexandreperussecavanagh/.rvm/gems/ruby-2.6.6/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [2b97727b] Running /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh as ubuntu@3.99.189.244
+ DEBUG [2b97727b] Command: /usr/bin/env chmod +x /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh
+  INFO [2b97727b] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [974ac036] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.99.189.244
+ DEBUG [974ac036] Command: /usr/bin/env mkdir -p /tmp
+  INFO [974ac036] Finished in 0.022 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-59560a6c676367b3f614.sh 0.0%
+  INFO Uploading /tmp/git-ssh-59560a6c676367b3f614.sh 100.0%
+  INFO [39d9c572] Running /usr/bin/env chmod 700 /tmp/git-ssh-59560a6c676367b3f614.sh as ubuntu@3.99.189.244
+ DEBUG [39d9c572] Command: /usr/bin/env chmod 700 /tmp/git-ssh-59560a6c676367b3f614.sh
+  INFO [39d9c572] Finished in 0.022 seconds with exit status 0 (successful).
+ DEBUG [d30ac5b3] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ] as ubuntu@3.99.189.244
+ DEBUG [d30ac5b3] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo/HEAD ]
+ DEBUG [d30ac5b3] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo
+ DEBUG [adf3afd2] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [adf3afd2] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [adf3afd2] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [8713f2e6] Running /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git as ubuntu@3.99.189.244
+ DEBUG [8713f2e6] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-59560a6c676367b3f614.sh" ; /usr/bin/env git remote set-url origin git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git )
+  INFO [8713f2e6] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [debbf7b3] Running /usr/bin/env git remote update --prune as ubuntu@3.99.189.244
+ DEBUG [debbf7b3] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-59560a6c676367b3f614.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [debbf7b3] 	Fetching origin
+  INFO [debbf7b3] Finished in 0.422 seconds with exit status 0 (successful).
+ DEBUG [467f1d6a] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [467f1d6a] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [467f1d6a] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [a37804ff] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 as ubuntu@3.99.189.244
+ DEBUG [a37804ff] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-59560a6c676367b3f614.sh" ; /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 )
+  INFO [a37804ff] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [f600f75f] Running /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 as ubuntu@3.99.189.244
+ DEBUG [f600f75f] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-59560a6c676367b3f614.sh" ; /usr/bin/env git archive main | /usr/bin/env tar -x -f - -C /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 )
+  INFO [f600f75f] Finished in 1.272 seconds with exit status 0 (successful).
+ DEBUG [87981715] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [87981715] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo'" 1>&2; false; fi
+ DEBUG [87981715] Finished in 0.018 seconds with exit status 0 (successful).
+ DEBUG [f4ebb738] Running /usr/bin/env git rev-list --max-count=1 main as ubuntu@3.99.189.244
+ DEBUG [f4ebb738] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-59560a6c676367b3f614.sh" ; /usr/bin/env git rev-list --max-count=1 main )
+ DEBUG [f4ebb738] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [f4ebb738] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [68d06e92] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [68d06e92] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi
+ DEBUG [68d06e92] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [7c88f4e8] Running /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION as ubuntu@3.99.189.244
+ DEBUG [7c88f4e8] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 && /usr/bin/env echo "abac8406d27f76e846d689310f3592cf68f5bb09" > REVISION
+  INFO [7c88f4e8] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [57877c0f] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config as ubuntu@3.99.189.244
+ DEBUG [57877c0f] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config
+  INFO [57877c0f] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [283ecde0] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [283ecde0] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml ]
+ DEBUG [283ecde0] Finished in 0.068 seconds with exit status 1 (failed).
+ DEBUG [0110c196] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [0110c196] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml ]
+ DEBUG [0110c196] Finished in 0.021 seconds with exit status 0 (successful).
+  INFO [545f6941] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [545f6941] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml
+  INFO [545f6941] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [149492d2] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml as ubuntu@3.99.189.244
+ DEBUG [149492d2] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/database.yml
+  INFO [149492d2] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [bf1c1287] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [bf1c1287] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml ]
+ DEBUG [bf1c1287] Finished in 0.067 seconds with exit status 1 (failed).
+ DEBUG [355aecd9] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [355aecd9] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml ]
+ DEBUG [355aecd9] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [a3c9024b] Running /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [a3c9024b] Command: /usr/bin/env rm /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml
+  INFO [a3c9024b] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [435833eb] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml as ubuntu@3.99.189.244
+ DEBUG [435833eb] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/config/application.yml
+  INFO [435833eb] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [20b7d925] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public as ubuntu@3.99.189.244
+ DEBUG [20b7d925] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public
+  INFO [20b7d925] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [acb083d8] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [acb083d8] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/pids ]
+ DEBUG [acb083d8] Finished in 0.022 seconds with exit status 1 (failed).
+ DEBUG [33f2d7c7] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/pids ] as ubuntu@3.99.189.244
+ DEBUG [33f2d7c7] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/pids ]
+ DEBUG [33f2d7c7] Finished in 0.061 seconds with exit status 1 (failed).
+  INFO [f5ab9922] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/pids as ubuntu@3.99.189.244
+ DEBUG [f5ab9922] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/pids
+  INFO [f5ab9922] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [8cf498ac] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [8cf498ac] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/sockets ]
+ DEBUG [8cf498ac] Finished in 0.064 seconds with exit status 1 (failed).
+ DEBUG [53e8e175] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/sockets ] as ubuntu@3.99.189.244
+ DEBUG [53e8e175] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/sockets ]
+ DEBUG [53e8e175] Finished in 0.024 seconds with exit status 1 (failed).
+  INFO [10dc0939] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/sockets as ubuntu@3.99.189.244
+ DEBUG [10dc0939] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/tmp/sockets
+  INFO [10dc0939] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [b524deab] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log ] as ubuntu@3.99.189.244
+ DEBUG [b524deab] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log ]
+ DEBUG [b524deab] Finished in 0.020 seconds with exit status 1 (failed).
+ DEBUG [ee68f943] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log ] as ubuntu@3.99.189.244
+ DEBUG [ee68f943] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log ]
+ DEBUG [ee68f943] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [96e5c13b] Running /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log as ubuntu@3.99.189.244
+ DEBUG [96e5c13b] Command: /usr/bin/env rm -rf /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log
+  INFO [96e5c13b] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [ef3e1d3c] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log as ubuntu@3.99.189.244
+ DEBUG [ef3e1d3c] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/log
+  INFO [ef3e1d3c] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [e40248b0] Running [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [e40248b0] Command: [ -L /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public/assets ]
+ DEBUG [e40248b0] Finished in 0.031 seconds with exit status 1 (failed).
+ DEBUG [c89e7ae0] Running [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public/assets ] as ubuntu@3.99.189.244
+ DEBUG [c89e7ae0] Command: [ -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public/assets ]
+ DEBUG [c89e7ae0] Finished in 0.068 seconds with exit status 1 (failed).
+  INFO [ef356cc8] Running /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public/assets as ubuntu@3.99.189.244
+ DEBUG [ef356cc8] Command: /usr/bin/env ln -s /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/public/assets
+  INFO [ef356cc8] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [a71a64c7] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [a71a64c7] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi
+ DEBUG [a71a64c7] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [66874eed] Running /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install . as ubuntu@3.99.189.244
+ DEBUG [66874eed] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 && /usr/bin/env /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh rvm --install install .
+ DEBUG [66874eed] 	Already installed ruby-2.6.6.
+To reinstall use:
+
+    rvm reinstall ruby-2.6.6
+
+  INFO [66874eed] Finished in 0.492 seconds with exit status 0 (successful).
+  INFO [48addd23] Running /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD as ubuntu@3.99.189.244
+ DEBUG [48addd23] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-59560a6c676367b3f614.sh" ; /usr/bin/env git ls-remote git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git HEAD )
+ DEBUG [48addd23] 	abac8406d27f76e846d689310f3592cf68f5bb09	HEAD
+  INFO [48addd23] Finished in 0.465 seconds with exit status 0 (successful).
+  INFO [e85af6a4] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases as ubuntu@3.99.189.244
+ DEBUG [e85af6a4] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases
+  INFO [e85af6a4] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [c0a68cf6] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets as ubuntu@3.99.189.244
+ DEBUG [c0a68cf6] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/pids /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/tmp/sockets /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/log /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/public/assets
+  INFO [c0a68cf6] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [9f50eede] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config as ubuntu@3.99.189.244
+ DEBUG [9f50eede] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config
+  INFO [9f50eede] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [94fe2e08] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ] as ubuntu@3.99.189.244
+ DEBUG [94fe2e08] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/database.yml ]
+ DEBUG [94fe2e08] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [ceef1018] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ] as ubuntu@3.99.189.244
+ DEBUG [ceef1018] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/config/application.yml ]
+ DEBUG [ceef1018] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [34591ccf] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ] as ubuntu@3.99.189.244
+ DEBUG [34591ccf] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/puma.rb ]
+ DEBUG [34591ccf] Finished in 0.025 seconds with exit status 0 (successful).
+ DEBUG [189333cd] Running [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/REVISION ] as ubuntu@3.99.189.244
+ DEBUG [189333cd] Command: [ -f /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/REVISION ]
+ DEBUG [189333cd] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [ad83c350] Running /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/REVISION 2>/dev/null as ubuntu@3.99.189.244
+ DEBUG [ad83c350] Command: /usr/bin/env cat /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538/REVISION 2>/dev/null
+ DEBUG [ad83c350] 	abac8406d27f76e846d689310f3592cf68f5bb09
+ DEBUG [ad83c350] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [f73f2065] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [f73f2065] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi
+ DEBUG [f73f2065] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [c45a09a6] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true as ubuntu@3.99.189.244
+ DEBUG [c45a09a6] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local deployment true
+ DEBUG [c45a09a6] 	You are replacing the current local value of deployment, which is currently nil
+  INFO [c45a09a6] Finished in 0.929 seconds with exit status 0 (successful).
+  INFO [d5efd741] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle as ubuntu@3.99.189.244
+ DEBUG [d5efd741] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local path /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/shared/bundle
+ DEBUG [d5efd741] 	You are replacing the current local value of path, which is currently nil
+  INFO [d5efd741] Finished in 0.980 seconds with exit status 0 (successful).
+  INFO [c8af6b16] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production as ubuntu@3.99.189.244
+ DEBUG [c8af6b16] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle config --local without production
+ DEBUG [c8af6b16] 	You are replacing the current local value of without, which is currently nil
+  INFO [c8af6b16] Finished in 0.982 seconds with exit status 0 (successful).
+ DEBUG [2e1fc501] Running if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi as ubuntu@3.99.189.244
+ DEBUG [2e1fc501] Command: if test ! -d /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538; then echo "Directory does not exist '/home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538'" 1>&2; false; fi
+ DEBUG [2e1fc501] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [8f42bbeb] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check as ubuntu@3.99.189.244
+ DEBUG [8f42bbeb] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle check
+ DEBUG [8f42bbeb] 	You must use Bundler 2 or greater with this lockfile.
+ DEBUG [8f42bbeb] Finished in 0.967 seconds with exit status 20 (failed).
+  INFO [5feb276e] Running /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet as ubuntu@3.99.189.244
+ DEBUG [5feb276e] Command: cd /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/releases/20220115062538 && /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/rvm-auto.sh . bundle install --jobs 4 --quiet
+ DEBUG [5feb276e] 	You must use Bundler 2 or greater with this lockfile.
