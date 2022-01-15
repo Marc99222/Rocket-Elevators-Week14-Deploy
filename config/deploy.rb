@@ -3,8 +3,8 @@ lock "~> 3.16.0"
 
 before 'deploy', 'rvm1:install:ruby'
 set :rvm_map_bins, [ 'rake', 'gem', 'bundle', 'ruby', 'puma', 'pumactl' ]
-set :application, "Rocket-Elevators-Machine-Learning"
-set :repo_url, "git@github.com:sampr23/Rocket-Elevators-Machine-Learning.git"
+set :application, "Rocket-Elevators-Week14-Deploy"
+set :repo_url, "git@github.com:Marc99222/Rocket-Elevators-Week14-Deploy.git"
 set :branch, 'main'
 # set :linked_files, %w{config/database.yml config/application.yml}
 set :rvm_type , :system
