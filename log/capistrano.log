@@ -1,0 +1,11 @@
+# Logfile created on 2022-01-14 23:26:34 -0500 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-14 23:26:34 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1e86265c] Running /usr/bin/env mkdir -p /home/deploy/apps/Rocket-Elevators-Machine-Learning/rvm1scripts/ as deploy@143.198.36.77
+ DEBUG [1e86265c] Command: /usr/bin/env mkdir -p /home/deploy/apps/Rocket-Elevators-Machine-Learning/rvm1scripts/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2022-01-14 23:27:56 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [590985c4] Running /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/ as deploy@3.99.189.244
+ DEBUG [590985c4] Command: /usr/bin/env mkdir -p /home/ubuntu/apps/Rocket-Elevators-Week14-Deploy/rvm1scripts/
