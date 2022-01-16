@@ -9,25 +9,25 @@ Then you have 5 section :
 5. Identify (This section will ask you for a wav file to detect if you are in this audio)
 
 # Audio link 
-1. https://www.rocket-elevators.xyz/sounds/1-3-not-referenced.wav
-2. https://www.rocket-elevators.xyz/sounds/2-5-passengers-not-referenced.wav
-3. https://www.rocket-elevators.xyz/sounds/3-1passengers-not-referenced-and-1-referenced-FR.wav
-4. https://www.rocket-elevators.xyz/sounds/4-1passengers-not-referenced-and-3-referenced.wav
-5. https://www.rocket-elevators.xyz/sounds/5-4passengers-not-referenced-and-1-referenced.wav
-6. https://www.rocket-elevators.xyz/sounds/6-2-referenced.wav
-7. https://www.rocket-elevators.xyz/sounds/7-1passengers-not-referenced-and-2-referenced-FR.wav
-8. https://www.rocket-elevators.xyz/sounds/8-2passengers-not-referenced-and-2-referenced-FR.wav
-9. https://www.rocket-elevators.xyz/sounds/9-3passengers-not-referenced-and-2-referenced-FR.wav
-10. https://www.rocket-elevators.xyz/sounds/10-2passengers-not-referenced-and-3-referenced-FR.wav
+1. https://https://www.marcapc.com//sounds/1-3-not-referenced.wav
+2. https://https://www.marcapc.com//sounds/2-5-passengers-not-referenced.wav
+3. https://https://www.marcapc.com//sounds/3-1passengers-not-referenced-and-1-referenced-FR.wav
+4. https://https://www.marcapc.com//sounds/4-1passengers-not-referenced-and-3-referenced.wav
+5. https://https://www.marcapc.com//sounds/5-4passengers-not-referenced-and-1-referenced.wav
+6. https://https://www.marcapc.com//sounds/6-2-referenced.wav
+7. https://https://www.marcapc.com//sounds/7-1passengers-not-referenced-and-2-referenced-FR.wav
+8. https://https://www.marcapc.com//sounds/8-2passengers-not-referenced-and-2-referenced-FR.wav
+9. https://https://www.marcapc.com//sounds/9-3passengers-not-referenced-and-2-referenced-FR.wav
+10. https://https://www.marcapc.com//sounds/10-2passengers-not-referenced-and-3-referenced-FR.wav
 
 And the enrollment audio
-1. https://www.rocket-elevators.xyz/sounds/danielwaving.wav
-2. https://www.rocket-elevators.xyz/sounds/marcaudiopiggy.wav
-3. https://www.rocket-elevators.xyz/sounds/samuel-waving-popping.wav
+1. https://https://www.marcapc.com//sounds/danielwaving.wav
+2. https://https://www.marcapc.com//sounds/marcaudiopiggy.wav
+3. https://https://www.marcapc.com//sounds/samuel-waving-popping.wav
 
 Or the audio files are also in the Folder `Public/sounds` of this repo.
 
-# https://rocket-elevators.xyz/
+# https://https://www.marcapc.com//
 ## First here you'll have a link to the REST API repository : https://github.com/Snova1054/Rocket-Elevators-Foundation-REST-API
 ## And here a link to the GraphQL API repository : https://github.com/Snova1054/Rocket-Elevators-Foundation_GraphQL_API
 ### If you ever want to have access to every feature of the website you can either log in as Nicolas Genest or as any Employee from Rocket Elevators
