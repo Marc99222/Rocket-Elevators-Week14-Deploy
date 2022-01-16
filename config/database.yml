@@ -2,86 +2,27 @@ default: &default
   adapter: mysql2
   encoding: utf8
   username: dbmasteruser
-  passeword: Codeboxx1!
+  password: Codeboxx1!
   host: ls-1c6447086c8b2894cde0dcfec2a51ae6f890d1ef.coojzbjc1mjk.ca-central-1.rds.amazonaws.com
   port : 3306
 
-  development:
-    <<: *default
-    database: RocketElevators
-
-
-
-default: &default
-  adapter: mysql2
-  encoding: utf8
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: 
-  port: /var/run/mysqld/mysqld.sock
 
 postgres: &postgres
   adapter: postgresql
-  encoding: unicode
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: marcalexandreperussecavanagh
-  password:
+  encoding: utf8
+  username: dbmasteruser
+  password: Codeboxx1!
+  host: ls-452f0a759af81e4cb0e6a7e781c9f2d87f9626f8.coojzbjc1mjk.ca-central-1.rds.amazonaws.com
+  port: 5432
 
 primary:
   <<: *default
-  database: Rocket_Elevators_Information_System_development
-
+  database: RocketElevators
 secondary:
   <<: *postgres
-  database: data_warehouse
+  database: RocketElevators
   migrations_paths: db/secondary_migrate
 
-# secondbase:
-#   development:
-#     adapter: postgresql
-#     database: Rocket_Elevators_Information_System_development
-
-#   test:
-#     adapter: postgresql
-#     database: Rocket_Elevators_Information_System_test
-
-  
 development:
-  <<: *default
-  database: Rocket_Elevators_Information_System_development
-
-production:
-  <<: *default
-  database: Rocket_Elevators_Information_System_production
-  username: Rocket_Elevators_Information_System
-  password: <%= ENV['ROCKET_ELEVATORS_INFORMATION_SYSTEM_DATABASE_PASSWORD'] %>
-
-
-
-
-# default: &default
-#   adapter: mysql2
-#   encoding: utf8
-#   username: codeboxx
-#   password: Codeboxx1!
-#   host: codeboxx.cq6zrczewpu2.us-east-1.rds.amazonaws.com
-#   port: 3306
-
-
-# postgres: &postgres
-#   adapter: postgresql
-#   encoding: utf8
-#   username: codeboxx
-#   password: Codeboxx1!
-#   host: codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com
-#   port: 5432
-# primary:
-#   <<: *default
-#   database: MARC_ALEXANDRE_PERUSSE_CAVANAGH
-# secondary:
-#   <<: *postgres
-#   database: MARC_ALEXANDRE_PERUSSE_CAVANAGH
-#   migrations_paths: db/secondary_migrate
-# development:
-#   <<: *default
-#   database: MARC_ALEXANDRE_PERUSSE_CAVANAGH
+    <<: *default
+    database: RocketElevators
