@@ -10,6 +10,9 @@ gem 'rails_admin'
 
 gem 'rails_admin_material'
 
+#New relic GEM
+gem 'newrelic_rpm'
+
 gem 'blazer'
 #GEM TWILIO
 gem 'twilio-ruby'
